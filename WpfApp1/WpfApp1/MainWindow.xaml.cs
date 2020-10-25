@@ -138,6 +138,7 @@ namespace WpfApp1
             {
                 New_Number_1 = random.Next(1, 9);
             } while (New_Number_1 == First_Number_1);
+            do
             {
                 New_Number_2 = random.Next(1, 9);
             } while (New_Number_2 == First_Number_2) ;
